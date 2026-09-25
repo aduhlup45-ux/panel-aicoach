@@ -1,0 +1,31 @@
+name: aicoach
+description: "AI Cycling Coach Application with Strava and Maps integration."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Modul Peta, Rute, dan Lokasi GPS Akurat
+  google_maps_flutter: ^2.5.3
+  geolocator: ^10.1.0
+
+  # Modul Kamera Foto & Rekam Suara Mikrofon
+  camera: ^0.10.5+5
+  record: ^5.0.4
+
+  # Modul Koneksi Internet & Strava API Cruncher
+  http: ^1.2.0
+  flutter_secure_storage: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
